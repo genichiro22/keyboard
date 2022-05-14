@@ -1,0 +1,169 @@
+   1               		.file	"debug.c"
+   2               	__SP_H__ = 0x3e
+   3               	__SP_L__ = 0x3d
+   4               	__SREG__ = 0x3f
+   5               	__tmp_reg__ = 0
+   6               	__zero_reg__ = 1
+   7               		.text
+   8               	.Ltext0:
+   9               		.section	.gnu.lto_.profile.5a422154ca069cad,"",@progbits
+  10 0000 789C 6361 		.string	"x\234ca`\004B "
+  10      6004 4220 
+  10      00
+  11 0009 00        		.string	""
+  12 000a 00        		.string	""
+  13 000b 3900      		.string	"9"
+  14 000d 07        		.ascii	"\007"
+  15               		.text
+  16               		.section	.gnu.lto_.icf.5a422154ca069cad,"",@progbits
+  17 0000 789C 6361 		.string	"x\234ca`d"
+  17      6064 00
+  18 0007 010E 0604 		.string	"\001\016\006\004`d8\376\340\305\036>\006"
+  18      6064 38FE 
+  18      E0C5 1E3E 
+  18      0600 
+  19 0015 1048 0368 		.ascii	"\020H\003h"
+  20               		.text
+  21               		.section	.gnu.lto_.jmpfuncs.5a422154ca069cad,"",@progbits
+  22 0000 789C 6361 		.string	"x\234ca`d"
+  22      6064 00
+  23 0007 0126 0664 		.string	"\001&\006d"
+  23      00
+  24 000c 00        		.string	""
+  25 000d 00        		.string	""
+  26 000e 9E00      		.string	"\236"
+  27 0010 08        		.ascii	"\b"
+  28               		.text
+  29               		.section	.gnu.lto_.inline.5a422154ca069cad,"",@progbits
+  30 0000 789C 6361 		.string	"x\234ca`d"
+  30      6064 00
+  31 0007 0126 0664 		.string	"\001&\006d"
+  31      00
+  32 000c 00        		.string	""
+  33 000d 00        		.string	""
+  34 000e 9E00      		.string	"\236"
+  35 0010 08        		.ascii	"\b"
+  36               		.text
+  37               		.section	.gnu.lto_.pureconst.5a422154ca069cad,"",@progbits
+  38 0000 789C 6361 		.string	"x\234ca`\004B "
+  38      6004 4220 
+  38      00
+  39 0009 00        		.string	""
+  40 000a 00        		.string	""
+  41 000b 3900      		.string	"9"
+  42 000d 07        		.ascii	"\007"
+  43               		.text
+  44               		.section	.gnu.lto_debug_config.5a422154ca069cad,"",@progbits
+  45 0000 789C 6361 		.string	"x\234ca`d"
+  45      6064 00
+  46 0007 8122 2086 		.string	"\201\" \206\260\030\030\37621Nk=t\236\375\013S+3P\020\231\313\b\346\376\371y\177\016\233\
+  46      B018 18FE 
+  46      3231 4E6B 
+  46      3D74 9EFD 
+  46      0B53 2B33 
+  47 0062 8BD3 26C3 		.ascii	"\213\323&\303"
+  48               		.text
+  49               		.section	.gnu.lto_.symbol_nodes.5a422154ca069cad,"",@progbits
+  50 0000 789C 6361 		.string	"x\234ca`d\340b"
+  50      6064 E062 
+  50      00
+  51 0009 0256 4686 		.string	"\002VF\206F!\020\003"
+  51      4621 1003 
+  51      00
+  52 0012 048B 00   		.string	"\004\213"
+  53 0015 A9        		.ascii	"\251"
+  54               		.text
+  55               		.section	.gnu.lto_.refs.5a422154ca069cad,"",@progbits
+  56 0000 789C 6361 		.string	"x\234ca`\004B "
+  56      6004 4220 
+  56      00
+  57 0009 00        		.string	""
+  58 000a 00        		.string	""
+  59 000b 3900      		.string	"9"
+  60 000d 07        		.ascii	"\007"
+  61               		.text
+  62               		.section	.gnu.lto_.decls.5a422154ca069cad,"",@progbits
+  63 0000 789C 7D53 		.string	"x\234}SKLSA\024\235\373\006Ji\200J\250\t\213\0061)IW\024a#+\023]\350\212\025\2723\244\320
+  63      4B4C 5341 
+  63      149D FB06 
+  63      4A69 804A 
+  63      A809 8B06 
+  64 008a C28F 1843 		.string	"\302\217\030CL\221\350c]\202\332\337\257\027UT\002>\237\377\264\376\0012\373\030\216:\306
+  64      4C91 E863 
+  64      5D82 DADF 
+  64      AF17 5554 
+  64      023E 9FFF 
+  65 00e9 23CF E881 		.string	"#\317\350\201L\0027A\017\275\240']\\<T\277\246\035`l\027\364\203\006\372\200\n\n:\241\327
+  65      4C02 3741 
+  65      0FBD A027 
+  65      5D5C 3C54 
+  65      BFA6 1D60 
+  66 0128 B3E0 166E 		.ascii	"\263\340\026n\337\306\372\315L-V\232\031r\277Q1\307\212\343\337"
+  66      DFC6 FACD 
+  66      4C2D 569A 
+  66      1972 BF51 
+  66      31C7 8AE3 
+  67 013d 7DDD 09CA 		.ascii	"}\335\t\312\371(\206\263\023\257\232\342"
+  67      F928 86B3 
+  67      13AF 9AE2 
+  68 0149 E811 2E10 		.string	"\350\021.\020\323\272taL\303\213\307#\214<\177\b\342I\225\242\324\226\276\245\004\367\361
+  68      D3BA 7461 
+  68      4CC3 8BC7 
+  68      238C 3C7F 
+  68      08E2 4995 
+  69 024a F152 AECF 		.ascii	"\361R\256\317"
+  70 024e 7FE9 88C7 		.string	"\177\351\210\307{0\352\024\221k\236\n\346\017\200po\022E\246A\027\265\237p\327\276,E *M\3
+  70      7B30 EA14 
+  70      916B 9E0A 
+  70      E60F 8070 
+  70      6F12 45A6 
+  71 034f 09BE 8505 		.ascii	"\t\276\205\005"
+  72               		.text
+  73               		.section	.gnu.lto_.symtab.5a422154ca069cad,"",@progbits
+  74 0000 6465 6275 		.string	"debug_config"
+  74      675F 636F 
+  74      6E66 6967 
+  74      00
+  75 000d 00        		.string	""
+  76 000e 00        		.string	""
+  77 000f 00        		.string	""
+  78 0010 00        		.string	""
+  79 0011 00        		.string	""
+  80 0012 00        		.string	""
+  81 0013 00        		.string	""
+  82 0014 00        		.string	""
+  83 0015 00        		.string	""
+  84 0016 00        		.string	""
+  85 0017 00        		.string	""
+  86 0018 CE00      		.string	"\316"
+  87 001a 00        		.string	""
+  88 001b 00        		.string	""
+  89               		.text
+  90               		.section	.gnu.lto_.opts,"",@progbits
+  91 0000 272D 666D 		.ascii	"'-fmath-errno' '-fsigned-zeros' '-ftrapping-math' '-fno-trap"
+  91      6174 682D 
+  91      6572 726E 
+  91      6F27 2027 
+  91      2D66 7369 
+  92 003c 7627 2027 		.ascii	"v' '-fno"
+  92      2D66 6E6F 
+  93 0044 2D6F 7065 		.string	"-openmp' '-fno-openacc' '-mn-flash=1' '-mno-skip-bug' '-mmcu=avr5' '-gdwarf-2' '-Os' '-We
+  93      6E6D 7027 
+  93      2027 2D66 
+  93      6E6F 2D6F 
+  93      7065 6E61 
+  94               		.text
+  95               		.comm	__gnu_lto_v1,1,1
+  96               		.comm	__gnu_lto_slim,1,1
+  97               		.ident	"GCC: (GNU) 5.4.0"
+DEFINED SYMBOLS
+                            *ABS*:0000000000000000 debug.c
+     /tmp/ccWa2Ell.s:2      *ABS*:000000000000003e __SP_H__
+     /tmp/ccWa2Ell.s:3      *ABS*:000000000000003d __SP_L__
+     /tmp/ccWa2Ell.s:4      *ABS*:000000000000003f __SREG__
+     /tmp/ccWa2Ell.s:5      *ABS*:0000000000000000 __tmp_reg__
+     /tmp/ccWa2Ell.s:6      *ABS*:0000000000000001 __zero_reg__
+                            *COM*:0000000000000001 __gnu_lto_v1
+                            *COM*:0000000000000001 __gnu_lto_slim
+
+NO UNDEFINED SYMBOLS

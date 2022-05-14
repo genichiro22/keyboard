@@ -1,0 +1,212 @@
+   1               		.file	"sendchar_null.c"
+   2               	__SP_H__ = 0x3e
+   3               	__SP_L__ = 0x3d
+   4               	__SREG__ = 0x3f
+   5               	__tmp_reg__ = 0
+   6               	__zero_reg__ = 1
+   7               		.text
+   8               	.Ltext0:
+   9               		.section	.gnu.lto_.profile.30d9f4a2a06c4f29,"",@progbits
+  10 0000 789C 6361 		.string	"x\234ca`d`a`"
+  10      6064 6061 
+  10      6000 
+  11 000a 924C 8C00 		.string	"\222L\214"
+  12 000e 00        		.string	""
+  13 000f 6F00      		.string	"o"
+  14 0011 0E        		.ascii	"\016"
+  15               		.text
+  16               		.section	.gnu.lto_.icf.30d9f4a2a06c4f29,"",@progbits
+  17 0000 789C 6361 		.string	"x\234ca`d"
+  17      6064 00
+  18 0007 010E 0604 		.string	"\001\016\006\004`d8\260\253\377//\003"
+  18      6064 38B0 
+  18      ABFF 2F2F 
+  18      0300 
+  19 0015 0EBD 0322 		.ascii	"\016\275\003\""
+  20               		.text
+  21               		.section	.gnu.lto_.jmpfuncs.30d9f4a2a06c4f29,"",@progbits
+  22 0000 789C 6361 		.string	"x\234ca`d"
+  22      6064 00
+  23 0007 0176 0604 		.string	"\001v\006\004`d`\004\t\002"
+  23      6064 6004 
+  23      0902 00
+  24 0012 0135 00   		.string	"\0015"
+  25 0015 10        		.ascii	"\020"
+  26               		.text
+  27               		.section	.gnu.lto_.inline.30d9f4a2a06c4f29,"",@progbits
+  28 0000 789C 6361 		.string	"x\234ca`d"
+  28      6064 00
+  29 0007 0111 0604 		.string	"\001\021\006\004"
+  29      00
+  30 000c 8A30 3331 		.string	"\21203120\001\231l\013\344\231\300b"
+  30      3230 0199 
+  30      6C0B E499 
+  30      C062 00
+  31 001b 0A19 00   		.string	"\n\031"
+  32 001e EA        		.ascii	"\352"
+  33               		.text
+  34               		.section	.gnu.lto_.pureconst.30d9f4a2a06c4f29,"",@progbits
+  35 0000 789C 6361 		.string	"x\234ca`d`f`"
+  35      6064 6066 
+  35      6000 
+  36 000a 9212 00   		.string	"\222\022"
+  37 000d 00        		.string	""
+  38 000e 7000      		.string	"p"
+  39 0010 22        		.ascii	"\""
+  40               		.text
+  41               		.section	.gnu.lto_sendchar.30d9f4a2a06c4f29,"",@progbits
+  42 0000 789C 6361 		.string	"x\234ca`d"
+  42      6064 00
+  43 0007 8153 40AC 		.string	"\201S@\254\002\304\322@\314\310\314\300\3104\341\034\003C#\007\023##\210\321\300\301\310P
+  43      02C4 D240 
+  43      CCC8 CCC0 
+  43      C834 E11C 
+  43      0343 2307 
+  44 00a6 C420 077E 		.string	"\304 \007~db\002\321\314\257\030\233\032\2763\202\024\003M\231\326z\350<\373\027&\240\343
+  44      6462 02D1 
+  44      CCAF 189B 
+  44      1ABE 3382 
+  44      1403 4D99 
+  45 00f5 83B6 51EE 		.ascii	"\203\266Q\356"
+  46               		.text
+  47               		.section	.gnu.lto_.symbol_nodes.30d9f4a2a06c4f29,"",@progbits
+  48 0000 789C 6361 		.string	"x\234ca`d\020f"
+  48      6064 1066 
+  48      00
+  49 0009 0226 867A 		.string	"\002&\206z\006\206\t\347\030@\324\256\006E\240\b"
+  49      0686 09E7 
+  49      1840 D4AE 
+  49      0645 A008 
+  49      00
+  50 001a 2738 03D2 		.ascii	"'8\003\322"
+  51               		.text
+  52               		.section	.gnu.lto_.refs.30d9f4a2a06c4f29,"",@progbits
+  53 0000 789C 6361 		.string	"x\234ca`\004B "
+  53      6004 4220 
+  53      00
+  54 0009 00        		.string	""
+  55 000a 00        		.string	""
+  56 000b 3900      		.string	"9"
+  57 000d 07        		.ascii	"\007"
+  58               		.text
+  59               		.section	.gnu.lto_.decls.30d9f4a2a06c4f29,"",@progbits
+  60 0000 789C 8551 		.ascii	"x\234\205QMh\023A\024\236ow\215\233\225\240\027M\204EBO9e\005"
+  60      4D68 1341 
+  60      149E 6F77 
+  60      8D9B 95A0 
+  60      174D 8445 
+  61 0019 2FF6 2678 		.ascii	"/\366&x\360\346I\275\206t\023lh~ ?zt\250\210E\024\024!\036,6"
+  61      F0E6 49BD 
+  61      8674 136C 
+  61      687E 203F 
+  61      7A74 A888 
+  62 0034 2068 5363 		.ascii	" hScS\255\306z0\346 \336\204\326\202\"\355!\240\242\320\326\223"
+  62      53AD C67A 
+  62      30E6 20DE 
+  62      84D6 8222 
+  62      ED21 A0A2 
+  63 004b 07AB 8638 		.ascii	"\007\253\2068of\343\246x\360\261;\363\2767\337|\357{\273\006"
+  63      6F66 E3A6 
+  63      78F0 B13B 
+  63      F3BE 37DF 
+  63      7CEF 7BBB 
+  64 0060 03A3 686B 		.ascii	"\003\243hk\214\235\025\373)\361\366E\b\310\3160?\210\265\304"
+  64      8C9D 15FB 
+  64      29F1 F645 
+  64      08C8 CE30 
+  64      3F88 B5C4 
+  65 0074 FE0D AA11 		.ascii	"\376\r\252\021\267%\336\346\177\270=\r\327\336\337\276\032\\"
+  65      B725 DEE6 
+  65      7FB8 3D0D 
+  65      D7DE DFBE 
+  65      1A5C 
+  66 0086 C307 68F0 		.ascii	"\303\007h\360\0323`\260\201R\tA)\001M\256^E1\376n\036\305K}1"
+  66      1A33 60B0 
+  66      8152 0941 
+  66      2901 4DAE 
+  66      5E45 31FE 
+  67 00a0 F9C0 4BFB 		.ascii	"\371\300K\373\203\220\"\252\350kQI\033\232\321S$w\f\376U(=\252"
+  67      8390 22AA 
+  67      E86B 5149 
+  67      1B9A D153 
+  67      2477 0CFE 
+  68 00b8 C373 322C 		.ascii	"\303s2,\254|\017\351b\347p\030L\177k\353\333GK\027\342\"\177"
+  68      AC7C 0FE9 
+  68      62E7 7018 
+  68      4C7F 6BEB 
+  68      DB47 4B17 
+  69 00cf B3BE D5D8 		.ascii	"\263\276\325\330\245\357\221\371\302\364\357\025\323\020\263"
+  69      A5EF 91F9 
+  69      C2F4 EF15 
+  69      D310 B3
+  70 00de D6A1 2BE6 		.ascii	"\326\241+\346\362\227\336g\304\033\\\304u\316\265\230\377\005"
+  70      F297 DE67 
+  70      C41B 5CC4 
+  70      75CE B598 
+  70      FF05 
+  71 00f0 9B97 3ED5 		.ascii	"\233\227>\325\315\357\032l\013}\020\336|\276\035R\230\216\353"
+  71      CDEF 1A6C 
+  71      0B7D 10DE 
+  71      7CBE 1D52 
+  71      988E EB
+  72 0103 33B3 AF42 		.ascii	"3\263\257B\372A\312\265\326\327\215e\rVl\212\363I\336\251\361"
+  72      FA41 CAB5 
+  72      D6D7 8D65 
+  72      0D56 6C8A 
+  72      F349 DEA9 
+  73 0118 4084 E188 		.ascii	"@\204\341\210\215\3036\303"
+  73      8DC3 36C3 
+  74 0120 0262 74E3 		.string	"\002bt\343\001\342\f\017a\243\001\233\335\243n\335\233\333{\3479\337\207&,\314C\227\0241\
+  74      01E2 0C0F 
+  74      61A3 019B 
+  74      DDA3 6EDD 
+  74      9BDB 7BE7 
+  75 0221 A66D D49C 		.ascii	"\246m\324\234"
+  76               		.text
+  77               		.section	.gnu.lto_.symtab.30d9f4a2a06c4f29,"",@progbits
+  78 0000 7365 6E64 		.string	"sendchar"
+  78      6368 6172 
+  78      00
+  79 0009 00        		.string	""
+  80 000a 01        		.ascii	"\001"
+  81 000b 00        		.string	""
+  82 000c 00        		.string	""
+  83 000d 00        		.string	""
+  84 000e 00        		.string	""
+  85 000f 00        		.string	""
+  86 0010 00        		.string	""
+  87 0011 00        		.string	""
+  88 0012 00        		.string	""
+  89 0013 00        		.string	""
+  90 0014 B800      		.string	"\270"
+  91 0016 00        		.string	""
+  92 0017 00        		.string	""
+  93               		.text
+  94               		.section	.gnu.lto_.opts,"",@progbits
+  95 0000 272D 666D 		.ascii	"'-fmath-errno' '-fsigned-zeros' '-ftrapping-math' '-fno-trap"
+  95      6174 682D 
+  95      6572 726E 
+  95      6F27 2027 
+  95      2D66 7369 
+  96 003c 7627 2027 		.ascii	"v' '-fno"
+  96      2D66 6E6F 
+  97 0044 2D6F 7065 		.string	"-openmp' '-fno-openacc' '-mn-flash=1' '-mno-skip-bug' '-mmcu=avr5' '-gdwarf-2' '-Os' '-We
+  97      6E6D 7027 
+  97      2027 2D66 
+  97      6E6F 2D6F 
+  97      7065 6E61 
+  98               		.text
+  99               		.comm	__gnu_lto_v1,1,1
+ 100               		.comm	__gnu_lto_slim,1,1
+ 101               		.ident	"GCC: (GNU) 5.4.0"
+DEFINED SYMBOLS
+                            *ABS*:0000000000000000 sendchar_null.c
+     /tmp/ccJ4YhaT.s:2      *ABS*:000000000000003e __SP_H__
+     /tmp/ccJ4YhaT.s:3      *ABS*:000000000000003d __SP_L__
+     /tmp/ccJ4YhaT.s:4      *ABS*:000000000000003f __SREG__
+     /tmp/ccJ4YhaT.s:5      *ABS*:0000000000000000 __tmp_reg__
+     /tmp/ccJ4YhaT.s:6      *ABS*:0000000000000001 __zero_reg__
+                            *COM*:0000000000000001 __gnu_lto_v1
+                            *COM*:0000000000000001 __gnu_lto_slim
+
+NO UNDEFINED SYMBOLS

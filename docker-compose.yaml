@@ -1,0 +1,14 @@
+version: "3.9"
+services:
+  compile:
+    working_dir: /qmk_firmware
+    image: qmkfm/qmk_firmware
+    volumes:
+      - ~/keyboard/keyboards/crkbd/keymaps:/qmk_firmware/keyboards/crkbd/keymaps
+      - ~/keyboard/build:/qmk_firmware/.build
+    environment:
+      KEYBOARD: crkbd
+      KEYMAP: genichiro
+    command: /bin/bash -c 'qmk compile -kb $$KEYBOARD -km $$KEYMAP'
+#    command: /bin/bash -c 'ls /keyboards/crkbd/keymaps'
+#    command: /bin/bash -c 'ls /.build'
