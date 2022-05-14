@@ -36,7 +36,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
     //,-----------------------------------------------------.                    ,-----------------------------------------------------.
          KC_TAB,    KC_1,    KC_2,    KC_3,    KC_4,    KC_5,                         KC_6,    KC_7,    KC_8,    KC_9,    KC_0, KC_BSPC,
     //|--------+--------+--------+--------+--------+--------|                    |--------+--------+--------+--------+--------+--------|
-        KC_LCTL, KC_PSLS, KC_PAST, KC_PMNS, KC_PPLS, KC_UNDS,                      KC_HOME,   KC_UP,  KC_END, KC_RBRC, KC_NUHS, KC_ESC,
+        KC_LCTL, KC_PSLS, KC_PAST, KC_PMNS, KC_PPLS, KC_UNDS,                      KC_HOME,   KC_UP,  KC_END, KC_RBRC, KC_NUHS,  KC_GRV,
     //|--------+--------+--------+--------+--------+--------|                    |--------+--------+--------+--------+--------+--------|
         KC_LSFT, XXXXXXX,  KC_EQL, KC_LABK, KC_RABK, LSFT(KC_INT1),                      KC_LEFT, KC_DOWN,KC_RIGHT,LSFT(KC_8),LSFT(KC_9), KC_RSFT,
     //|--------+--------+--------+--------+--------+--------+--------|  |--------+--------+--------+--------+--------+--------+--------|
@@ -47,7 +47,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
     //,-----------------------------------------------------.                    ,-----------------------------------------------------.
          KC_TAB, KC_EXLM,   KC_AT, KC_HASH,  KC_DLR, KC_PERC,                      KC_CIRC, KC_AMPR, KC_ASTR, KC_LPRN, KC_RPRN, KC_BSPC,
     //|--------+--------+--------+--------+--------+--------|                    |--------+--------+--------+--------+--------+--------|
-        KC_LCTL,   KC_F4,   KC_F5,   KC_F6,   KC_F7,   KC_F8,                      KC_MINS,  KC_EQL, KC_LCBR, KC_RCBR, KC_PIPE,  KC_ESC,
+        KC_LCTL,   KC_F4,   KC_F5,   KC_F6,   KC_F7,   KC_F8,                      KC_MINS,  KC_EQL, KC_LCBR, KC_RCBR, KC_PIPE,  KC_GRV,
     //|--------+--------+--------+--------+--------+--------|                    |--------+--------+--------+--------+--------+--------|
         KC_LSFT,   KC_F9,  KC_F10,  KC_F11,  KC_F12, XXXXXXX,                      KC_UNDS, KC_PLUS, KC_LBRC, KC_RBRC, KC_INT1, KC_RSFT,
     //|--------+--------+--------+--------+--------+--------+--------|  |--------+--------+--------+--------+--------+--------+--------|
@@ -59,7 +59,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
   //,-----------------------------------------------------.                    ,-----------------------------------------------------.
        KC_TAB, XXXXXXX, XXXXXXX, XXXXXXX, KC_ASTR, XXXXXXX,                      XXXXXXX, KC_LPRN, XXXXXXX, XXXXXXX, XXXXXXX, KC_BSPC,
   //|--------+--------+--------+--------+--------+--------|                    |--------+--------+--------+--------+--------+--------|
-      KC_LCTL, XXXXXXX, XXXXXXX, XXXXXXX, KC_RCBR, XXXXXXX,                      XXXXXXX, KC_PIPE, XXXXXXX, XXXXXXX, XXXXXXX,  KC_ESC,
+      KC_LCTL,   KC_F1,   KC_F2,   KC_F3, KC_RCBR, XXXXXXX,                      XXXXXXX, KC_PIPE, XXXXXXX, XXXXXXX, XXXXXXX,  KC_ESC,
   //|--------+--------+--------+--------+--------+--------|                    |--------+--------+--------+--------+--------+--------|
       KC_LSFT, XXXXXXX, XXXXXXX, XXXXXXX, KC_RBRC, XXXXXXX,                      XXXXXXX, KC_NUHS, XXXXXXX, XXXXXXX, XXXXXXX, KC_RSFT,
   //|--------+--------+--------+--------+--------+--------+--------|  |--------+--------+--------+--------+--------+--------+--------|
