@@ -1,1 +1,0 @@
--Wl,--gc-sections -Wl,-Map=.build/crkbd_rev1_default1.map,--cref     -lm 
